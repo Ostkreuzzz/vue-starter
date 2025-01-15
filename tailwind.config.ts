@@ -2,9 +2,9 @@ import type { Config } from 'tailwindcss'
 
 export default {
   content: [
-    './pages//*.{js,ts,jsx,tsx,mdx}',
-    './components//*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/**/*.{vue,js,ts,jsx,tsx,mdx}',
+    './components/**/*.{vue,js,ts,jsx,tsx,mdx}',
+    './app/**/*.{vue,js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     screens: {
@@ -31,6 +31,7 @@ export default {
     },
 
     spacing: {
+      0: '0px',
       4: '4px',
       8: '8px',
       10: '10px',
